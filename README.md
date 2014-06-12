@@ -585,8 +585,22 @@ $foo->bar(
 );
 ```
 
+7. Arrays
+----------
 
-7. Conclusion
+Associative arrays should be declared like so:
+
+```php
+<?php
+
+$someArray = array(
+  "stuff" => array(
+    "morestuff" => "adf",
+    "otha" => "asdfa"
+  )
+);
+
+8. Conclusion
 --------------
 
 There are many elements of style and practice currently omitted by this
