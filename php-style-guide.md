@@ -589,18 +589,21 @@ $foo->bar(
 7. Conclusion
 --------------
 
-There are many elements of style and practice intentionally omitted by this
+There are many elements of style and practice currently omitted by this
 guide. These include but are not limited to:
 
 - Declaration of global variables and global constants
+  (try to avoid use unless absolutely necessary)
 
 - Declaration of functions
 
 - Operators and assignment
+  (use symbols not words e.g. || and &&)
 
 - Inter-line alignment
 
 - Comments and documentation blocks
+  (avoid commenting obvious things, e.g. try and let the code speak for itself)
 
 - Class name prefixes and suffixes
 
