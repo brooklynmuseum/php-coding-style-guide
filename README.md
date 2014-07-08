@@ -235,10 +235,11 @@ Visibility MUST be declared on all methods.
 Method names SHOULD NOT be prefixed with a single underscore to indicate
 protected or private visibility.
 
-Method names MUST NOT be declared with a space after the method name. The
-opening brace MUST go on its own line, and the closing brace MUST go on the
-next line following the body. There MUST NOT be a space after the opening
-parenthesis, and there MUST NOT be a space before the closing parenthesis.
+Method names MUST NOT be declared with a space after the method name. 
+The opening brace for the class MUST go on the same line; the closing 
+brace for the class MUST go on the next line after the body. There MUST 
+NOT be a space after the opening parenthesis, and there MUST NOT be a 
+space before the closing parenthesis.
 
 A method declaration looks like the following. Note the placement of
 parentheses, commas, spaces, and braces:
@@ -247,10 +248,8 @@ parentheses, commas, spaces, and braces:
 <?php
 namespace Vendor\Package;
 
-class ClassName
-{
-    public function fooBarBaz($arg1, &$arg2, $arg3 = [])
-    {
+class ClassName {
+    public function fooBarBaz($arg1, &$arg2, $arg3 = []) {
         // method body
     }
 }
