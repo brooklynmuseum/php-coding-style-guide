@@ -29,8 +29,7 @@ interpreted as described in [RFC 2119].
 
 - Code MUST use 2 spaces for indenting, not tabs.
 
-- There MUST NOT be a hard limit on line length; the soft limit MUST be 120
-  characters; lines SHOULD be 80 characters or less.
+- Lines MUST be 80 characters or less.  Template coding (e.g. html and php) is exempt from this.
 
 - There MUST be one blank line after the `namespace` declaration, and there
   MUST be one blank line after the block of `use` declarations.
